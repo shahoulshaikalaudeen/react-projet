@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./containers/composants/containers/Footer/Footer";
 import User from "./containers/composants/containers/Footer/Footer";
+import Routine from "./containers/Routine/Routine";
 
 const App = () => {
   const user = {
@@ -17,6 +18,7 @@ const App = () => {
         lastName={user.lastName}
         hobbies={user.hobbies}
       />
+       <Routine />
     </div>
   );
 };
