@@ -2,10 +2,10 @@ import React from "react";
 import Firstname from "./Firstname";
 import Lastname from "./Lastname";
 
-const Fullname = () => {
+const Fullname = ({ firstName, lastName }) => {
   return (
     <div>
-      <Firstname /> <Lastname />
+      <Firstname firstName={firstName} /> <Lastname lastName={lastName} />
     </div>
   );
 };

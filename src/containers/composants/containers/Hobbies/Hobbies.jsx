@@ -1,8 +1,6 @@
 import React from "react";
 
-const Hobbies = () => {
-  const hobbies = ["Lecture", "Voyage", "Musique"];
-
+const Hobbies = ({ hobbies }) => {
   return (
     <ul>
       {hobbies.map((hobby, index) => (

@@ -1,7 +1,7 @@
 import React from "react";
 
-const Lastname = () => {
-  return <span>Doe</span>;
+const Lastname = ({ lastName }) => {
+  return <span>{lastName}</span>;
 };
 
 export default Lastname;
